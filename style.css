@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @import url: ('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Space+Grotesk:wght@500&display=swap');
+}
+
+            /* HEADER */
+header {
+    height: 9vh;
+    background-color: #0E3E29;
+    /* border: solid 1px black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home {
+    /* border: solid 1px blue; */
+    width: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.home img {
+    width: 78%;
+}
+
+.home figcaption {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #FFF;
+}
+
+.navegation {
+    /* border: solid 1px blue; */
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegation a {
+    /* border: solid 1px black; */
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.navegation :hover {
+    color: #FF7E1E;
+    
+}
+
+button {
+    width: 11%;
+    height: 5.5vh;
+    border-radius: 3px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    background-color: #FF7E1E;
+    cursor: pointer;
+    position: relative;
+    right: 9%;
+    top: 4%;
+}
+
+button:hover {
+    color: #FF7E1E;
+    background-color: #FFF;
+}
+
+            /* MAIN */
+
+.presentation {
+    /* border: solid 1px; */
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+}
+
+.presentation div {
+    /* border: solid 1px red; */
+    width: 33%;
+    height: 39vh;   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: self-start;
+}
+
+.presentation h2 {
+    /* border: solid 1px ; */
+    width: 60%;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #0E3E29 ;
+}
+
+.presentation span {
+    color: #FF7E1E;
+}
+
+.presentation p {
+    /* border: solid; */
+    width: 100%;
+    height: 13vh;
+    line-height: 145%;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #052014;
+}
+
+.offer {
+    width: 66%;
+    height: 7vh;
+    position: relative;
+    left: 0%; 
+}
+
+.banner1 {
+    /* border: solid 1px; */
+    height: 30vh;
+    width: 100%;
+}
+
+.banner1 img {
+    width: 134.4%;
+    border-radius: 174px 0px 0px 174px;
+    border: 6px solid #FF7E1E;
+    border-right: none;
+}
+
+.banner2 {
+    /* border: solid 1px; */
+    position: relative;
+    right: 5%;
+}
+
+.banner2 img {
+    width: 70%;
+}
+
+.about {
+    /* border: solid 1px green; */
+    height: 83vh;
+    background-color: #0E3E29;
+    display: flex;
+}
+
+.about div {
+    /* border: solid 1px red; */
+    width: 60%;
+    height: 83vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.about figure {
+    /* border: solid 1px red; */
+    width: 50%;
+    height: 83vh;
+}
+
+.about img {
+    width: 100%;
+    height: 83vh;
+}
+
+.about button {
+    position: relative;
+    left: 20%;
+    top: 10%;
+    width: 28%;
+    height: 5vh;
+}
+
+.about h2 {
+    /* border: solid 1px blue; */
+    width: 62%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 16vh;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #F5F5F5;
+    position: relative;
+    left: 20%;
+    top: 3%;
+}
+
+.about p {
+    width: 69%;
+    /* border: solid 1px blue; */
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #F5F5F5;
+    position: relative;
+    left: 20%;
+    bottom: 6%;
+    line-height: 23px;
+}
+
+#club {
+    position: relative;
+    bottom: 12%;
+}
