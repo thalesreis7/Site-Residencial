@@ -52,6 +52,9 @@ header {
     text-decoration: none;
 }
 
+.navegation span {
+    color:#FF7E1E   ;
+}
 .navegation :hover {
     color: #FF7E1E;
     
@@ -69,7 +72,6 @@ button {
     cursor: pointer;
     position: relative;
     right: 9%;
-    top: 4%;
 }
 
 button:hover {
@@ -125,7 +127,8 @@ button:hover {
     width: 66%;
     height: 7vh;
     position: relative;
-    left: 0%; 
+    left: 0%;
+    top: 6%; 
 }
 
 .banner1 {
@@ -219,3 +222,93 @@ button:hover {
     position: relative;
     bottom: 12%;
 }
+
+.info {
+    border: solid 1px rgb(253, 38, 0);
+    height: 28vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info div {
+    border: solid 1px rgb(3, 255, 242);
+    height: 28vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.info p {
+    /* border: solid 1px greenyellow; */
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #FF7E1E;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 4%;
+}
+
+.info h2 {
+    /* border: solid 1px orange; */
+    width: 80%;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #052014;
+    display: flex;
+    justify-content: center;
+}
+
+.boxCards {
+    /* border: solid 1px rgb(136, 201, 15); */
+    height: 40vh;
+    width: 76%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    left: 12%;
+}
+
+.arrow {
+    /* border: solid 1px black; */
+    width: 5%;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+}
+
+.boxCards div{
+    /* border: solid 1px blue; */
+    background-color: #F7F7F7;
+    width: 19%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boxCards img {
+    width: 82%;
+    position: relative;
+    left: 7%;
+    top: 11%;
+}
+
+.boxCards p {
+    /* border: 1px solid #02ff0e; */
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: center;
+    color: #052014;
+}
+
