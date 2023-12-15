@@ -224,15 +224,15 @@ button:hover {
 }
 
 .info {
-    border: solid 1px rgb(253, 38, 0);
-    height: 28vh;
+    /* border: solid 1px rgb(253, 38, 0); */
+    height: 30vh;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .info div {
-    border: solid 1px rgb(3, 255, 242);
+    /* border: solid 1px rgb(3, 255, 242); */
     height: 28vh;
     width: 90%;
     display: flex;
@@ -277,12 +277,34 @@ button:hover {
     left: 12%;
 }
 
-.arrow {
+.arrowLeft {
     /* border: solid 1px black; */
     width: 5%;
-    height: 9vh;
     display: flex;
     justify-content: center;
+    position: relative;
+    left: 4%;
+    z-index: 1;
+}
+
+.arrowLeft:hover {
+    transition: 300ms linear;
+    transform: scale(1.1);
+}
+
+.arrowRight {
+     /* border: solid 1px black; */
+     width: 5%;
+     display: flex;
+     justify-content: center;
+     position: relative;
+     right: 5%;
+     z-index: 1;
+}
+
+.arrowRight:hover {
+    transition: 300ms linear;
+    transform: scale(1.1);
 }
 
 .boxCards div{
@@ -296,19 +318,147 @@ button:hover {
     align-items: center;
 }
 
+.boxCards div:hover {
+    transition: 300ms linear;
+    transform: scale(1.1);
+}
+
 .boxCards img {
-    width: 82%;
+    width: 73%;
     position: relative;
-    left: 7%;
-    top: 11%;
+    left: 12%;
+    top: 30%;
 }
 
 .boxCards p {
     /* border: 1px solid #02ff0e; */
     font-family: 'Inter', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 500;
     text-align: center;
     color: #052014;
 }
 
+.boxCards02 {
+   /* border: solid 1px rgb(136, 201, 15); */
+   height: 50vh;
+   width: 76%;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   position: relative;
+   left: 12%;
+}
+
+.arrowLeft02 {
+    /* border: solid 1px black; */
+    width: 4%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 4%;
+    z-index: 1;
+}
+
+.arrowLeft02:hover {
+    transition: 300ms linear;
+    transform: scale(1.1);
+}
+
+.arrowRight02 {
+     /* border: solid 1px black; */
+     width: 4%;
+     display: flex;
+     justify-content: center;
+     position: relative;
+     right: 4%;
+}
+
+.arrowRight02:hover {
+    transition: 300ms linear;
+    transform: scale(1.1);
+}
+
+.boxCards02 div{
+    /* border: solid 1px blue; */
+    width: 19%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boxCards02 div:hover {
+    transition: 300ms linear;
+    transform: scale(1.1);
+}
+
+.boxCards02 img {
+    width: 100%;
+}
+
+.line { 
+    border-bottom: 3px solid #FF7E1E;
+    border-radius: 10px;
+    width: 2%;
+    position: relative;
+    left: 46%;
+    
+}
+
+.depositions {
+    border: solid 1px blue;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: #0E3E29;
+}
+
+.depositions h2 {
+    /* border: solid 1px green; */
+    width: 70%;
+    font-family: 'Space Grotesk',sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #F5F5F5;
+    position: relative;
+    left: 19%;
+    top: 19%;
+}
+
+.depositions p {
+    /* border: solid 1px green; */
+    width: 56%;
+    font-family: 'Inter',sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #F5F5F5;
+    line-height: 23px;
+    position: relative;
+    left: 19%;
+    top: 23%;
+}
+
+.set {
+    /* border: solid 1px black; */
+    width: 9%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 23%;
+    right: 13%;
+}
+
+.set button {
+    position: relative;
+    left: 1%;
+    width: 25%;
+    height: 6vh;
+}
+
+.set img {
+    width: 141%;
+}
