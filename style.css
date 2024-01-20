@@ -467,6 +467,11 @@ button:hover {
     width: 141%;
 }
 
+.set img:hover {
+    transition: 300ms linear;
+    transform: scale(1.1);
+}
+
 .users {
     /* border: solid 1px red; */
     width: 71%;
@@ -486,6 +491,11 @@ button:hover {
     background-color: #EAEAEA;
     display: flex;
     flex-direction: column;
+}
+
+.users div:hover {
+    transition: 200ms linear;
+    transform: scale(1.1);
 }
 
 .users p {
@@ -528,3 +538,95 @@ h4 {
     position: relative;
     top: 14%;
 }
+            /* FOOTER */
+.contact {
+    border: solid 1px ;
+    height: 97vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center ;
+}
+
+.dados {
+    border: solid 1px greenyellow;
+    width: 37%;
+    height: 66vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.dados h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #052014;
+}
+
+.dados p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight:500 ;
+    color: #052014;
+}
+
+.map {
+    border: solid 1px goldenrod;
+    height: 66vh;
+}
+
+.setaSearch {
+    width: 4%;
+}
+
+.dados form {
+    border: solid 1px green;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.n {
+    color: #FF7E1E;
+    width: 1%;
+    height: 0%;
+    position: relative;
+    bottom: 14%;
+    left: 9%
+}
+
+.t {
+    color: #FF7E1E;
+    width: 1%;
+    height: 0%;
+    position: relative;
+    bottom: 14%;
+    left: 12%
+}
+
+.setaSearch {
+    position: relative;
+    bottom: 13%;
+    left: 94%;
+}
+
+.dados input {
+    height: 6vh;
+    border-radius: 4px;
+    border: none;
+    background-color: #F7F7F7;
+    padding: 1%;
+}
+
+.inputForm {
+    width: 100%;
+    position: relative;
+    left: 0%;
+    bottom: 7%;
+    color: #EAEAEA;
+    text-transform: uppercase;
+    border-radius: 1px;
+}
+
