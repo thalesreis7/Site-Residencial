@@ -540,7 +540,7 @@ h4 {
 }
             /* FOOTER */
 .contact {
-    border: solid 1px ;
+    /* border: solid 1px ; */
     height: 97vh;
     display: flex;
     justify-content: space-evenly;
@@ -548,7 +548,7 @@ h4 {
 }
 
 .dados {
-    border: solid 1px greenyellow;
+    /* border: solid 1px greenyellow; */
     width: 37%;
     height: 66vh;
     display: flex;
@@ -565,14 +565,9 @@ h4 {
 
 .dados p {
     font-family: 'Inter', sans-serif;
-    font-size: 1rem;
-    font-weight:500 ;
-    color: #052014;
-}
-
-.map {
-    border: solid 1px goldenrod;
-    height: 66vh;
+    font-size: 0.8rem;
+    font-weight:600 ;
+    color: #0E3E29;
 }
 
 .setaSearch {
@@ -580,7 +575,7 @@ h4 {
 }
 
 .dados form {
-    border: solid 1px green;
+    /* border: solid 1px green; */
     height: 40vh;
     display: flex;
     flex-direction: column;
@@ -630,3 +625,92 @@ h4 {
     border-radius: 1px;
 }
 
+.link {
+    /* border: solid 1px orange; */
+    height: 9vh;
+    display: flex;
+    justify-content: start;
+}
+
+.link div {
+    /* border: solid 1px green; */
+    width: 36%;
+    display: flex;
+    justify-content: start;
+}
+
+.link img {
+    height: 4vh;
+}
+
+.link h3 {  
+    font-family:'Inter', sans-serif ;
+    font-size: 0.7rem;
+    font-weight:600 ;
+    text-transform: uppercase;
+    color: #052014;
+    position: relative;
+    top: 3%;
+    left: 4%;
+}
+
+.link p {
+    width: 49%;
+    font-family:'Inter', sans-serif ;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: #FF7E1E;
+    position: relative;
+    top: 29%;
+    right: 32%;
+}
+
+.link h4 {
+    font-family:'Inter', sans-serif ;
+    font-size: 0.7rem;
+    font-weight:600 ;
+    text-transform: uppercase;
+    color: #052014;
+    position: relative;
+    top: 3%;
+    left: 4%;
+}
+
+.link h5 {
+    width: 49%;
+    font-family:'Inter', sans-serif ;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: #FF7E1E;
+    position: relative;
+    top: 29%;
+    right: 16%;
+}
+
+.map {
+    /* border: solid 1px goldenrod; */
+    height: 66vh;
+    width: 6%;
+    position: relative;
+    right: 7%;
+}
+
+.map img {
+    width: 368%;
+}
+
+footer  {
+    /* border: solid 1px red; */
+    height: 7vh;
+    background-color: #0E3E29;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+footer p {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #FFF;
+}
