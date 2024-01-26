@@ -1,0 +1,128 @@
+
+@media (max-width: 1280px){
+    /* MAIN */
+    .about h2 {
+        width: 63%;
+    }
+    .set button {
+        height: 5vh;
+    }
+    .users div {
+        width: 31%;
+        height: 39vh;
+    }
+    .map {
+        width: 7%;
+        right: 19%;
+    }
+}
+
+
+@media (max-width: 1114px) {
+    /* HEADER */
+    .home {
+        width: 13%;
+        position: relative;
+        left: 2%;
+    }
+    .navegation {
+        width: 38%;
+    }
+    button {
+        width: 13%;
+        right: 8%;
+    }
+    /* MAIN */
+    .offer {
+        width: 26vw;
+        top: 10%;
+    }
+    .about button {
+        width: 19vw;
+        top: 7%;
+    }
+    .about h2 {
+        width: 73%;
+        top: 0%;
+    }
+    .info p {
+        left: 0%;
+    }
+    .depositions h2 {
+        left: 18%;
+    }
+    .depositions p {
+        left: 18%;
+    }
+    .users p {
+        left: 2%;
+    }
+}
+
+@media (max-width: 834px) and (min-width: 800px){
+    /* HEADER */
+    header {
+        height: 7vh;
+        justify-content: space-between;
+    }
+    .home {
+        width: 20%;
+    }
+    .home figcaption {
+        font-size: 1.2rem;
+    }
+    .navegation {
+        display: none;
+    }
+    button {
+        width: 19%;
+        height: 3.5vh;
+    }
+    .presentation {
+        height: 80vh;
+        flex-direction: column;
+    }
+    .presentation div {
+        position: relative;
+        bottom: 4%;
+        right: 30%;
+    }
+    .presentation h2 {
+        width: 155%;
+        font-size: 3.5rem;
+        font-weight: 700;
+    }
+    .presentation p {
+        width: 210%;
+        height: 8vh;
+        font-size: 1.4rem;
+        font-weight: 600;
+        position: relative;
+        bottom: 7%;
+    }
+    .offer {
+        width: 114%;
+        height: 4vh;
+        position: relative;
+        top : -8%;
+        font-size: 1.1rem;
+    }
+    .banner1 {
+        width: 216%;
+        position: relative;
+        left: 2%;
+        top: 6%;
+    }
+    .banner1 img {
+        border-radius: 241px 0px 0px 241px;
+    }
+    .banner2 {
+        bottom: 10%;
+    }
+    .banner2 img {
+        width: 82%;
+    }
+    .about {
+        flex-direction: column;
+    }
+    /* .about button{} */
