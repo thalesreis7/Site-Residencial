@@ -112,11 +112,11 @@
 }
 
 .about p {
-    width: 69%;
+    width: 63%;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-size: 0.9rem;
-    font-weight: 600;
+    font-weight: 500;
     color: #F5F5F5;
     position: relative;
     left: 20%;
@@ -320,7 +320,7 @@
     font-weight: 500;
     color: #F5F5F5;
     position: relative;
-    left: 22%;
+    left: 23%;
     top: 56%;
 }
 
@@ -328,11 +328,11 @@
     width: 56%;
     font-family: 'Inter',sans-serif;
     font-size: 0.9rem;
-    font-weight: 600;
+    font-weight: 500;
     color: #F5F5F5;
     line-height: 23px;
     position: relative;
-    left: 22%;
+    left: 23%;
     top: 68%;
 }
 
