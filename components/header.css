@@ -1,2 +1,69 @@
+header {
+    height: 9vh;
+    background-color: #0E3E29;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
-            
+.home {
+    width: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.home img {
+    width: 78%;
+}
+
+.home figcaption {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #FFF;
+}
+
+.navegation {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegation a {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.navegation span {
+    color: #FF7E1E;
+}
+
+.navegation :hover {
+    color: #FF7E1E;
+
+}
+
+button {
+    width: 11%;
+    height: 5.5vh;
+    border-radius: 3px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    background-color: #FF7E1E;
+    cursor: pointer;
+    position: relative;
+    right: 9%;
+}
+
+button:hover {
+    color: #FF7E1E;
+    background-color: #FFF;
+}

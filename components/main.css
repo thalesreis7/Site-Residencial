@@ -1,88 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    @import url: ('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Space+Grotesk:wght@500&display=swap');
-}
-
-        /* HEADER */
-header {
-    height: 9vh;
-    background-color: #0E3E29;
-    /* border: solid 1px black; */
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.home {
-    /* border: solid 1px blue; */
-    width: 9%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.home img {
-    width: 78%;
-}
-
-.home figcaption {
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 1rem;
-    font-weight: 600;
-    color: #FFF;
-}
-
-.navegation {
-    /* border: solid 1px blue; */
-    width: 35%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navegation a {
-    /* border: solid 1px black; */
-    font-family: 'Inter', sans-serif;
-    font-size: 0.9rem;
-    font-weight: 600;
-    color: #FFF;
-    text-decoration: none;
-}
-
-.navegation span {
-    color:#FF7E1E   ;
-}
-.navegation :hover {
-    color: #FF7E1E;
-    
-}
-
-button {
-    width: 11%;
-    height: 5.5vh;
-    border-radius: 3px;
-    border: none;
-    font-family: 'Inter', sans-serif;
-    font-size: 0.9rem;
-    font-weight: 600;
-    background-color: #FF7E1E;
-    cursor: pointer;
-    position: relative;
-    right: 9%;
-}
-
-button:hover {
-    color: #FF7E1E;
-    background-color: #FFF;
-}
-
-            /* MAIN */
-
 .presentation {
-    /* border: solid 1px; */
     height: 70vh;
     display: flex;
     justify-content: space-evenly;
@@ -90,7 +6,6 @@ button:hover {
 }
 
 .presentation div {
-    /* border: solid 1px red; */
     width: 33%;
     height: 39vh;   
     display: flex;
@@ -100,7 +15,6 @@ button:hover {
 }
 
 .presentation h2 {
-    /* border: solid 1px ; */
     width: 62%;
     font-family: 'Space Grotesk', sans-serif;
     font-size: 2.5rem;
@@ -113,7 +27,6 @@ button:hover {
 }
 
 .presentation p {
-    /* border: solid; */
     width: 100%;
     height: 13vh;
     line-height: 145%;
@@ -132,7 +45,6 @@ button:hover {
 }
 
 .banner1 {
-    /* border: solid 1px; */
     height: 30vh;
     width: 100%;
 }
@@ -145,7 +57,6 @@ button:hover {
 }
 
 .banner2 {
-    /* border: solid 1px; */
     position: relative;
     right: 5%;
 }
@@ -155,14 +66,12 @@ button:hover {
 }
 
 .about {
-    /* border: solid 1px green; */
     height: 83vh;
     background-color: #0E3E29;
     display: flex;
 }
 
 .about div {
-    /* border: solid 1px red; */
     width: 60%;
     height: 83vh;
     display: flex;
@@ -171,7 +80,6 @@ button:hover {
 }
 
 .about figure {
-    /* border: solid 1px red; */
     width: 50%;
     height: 83vh;
 }
@@ -190,7 +98,6 @@ button:hover {
 }
 
 .about h2 {
-    /* border: solid 1px blue; */
     width: 62%;
     display: flex;
     justify-content: space-evenly;
@@ -206,7 +113,6 @@ button:hover {
 
 .about p {
     width: 69%;
-    /* border: solid 1px blue; */
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-size: 0.9rem;
@@ -224,7 +130,6 @@ button:hover {
 }
 
 .info {
-    /* border: solid 1px rgb(253, 38, 0); */
     height: 30vh;
     display: flex;
     flex-direction: column;
@@ -232,7 +137,6 @@ button:hover {
 }
 
 .info div {
-    /* border: solid 1px rgb(3, 255, 242); */
     height: 28vh;
     width: 90%;
     display: flex;
@@ -242,7 +146,6 @@ button:hover {
 }
 
 .info p {
-    /* border: solid 1px greenyellow; */
     width: 100%;
     font-family: 'Inter', sans-serif;
     font-size: 1rem;
@@ -256,7 +159,6 @@ button:hover {
 }
 
 .info h2 {
-    /* border: solid 1px orange; */
     width: 34%;
     font-family: 'Space Grotesk', sans-serif;
     font-size: 2rem;
@@ -268,7 +170,6 @@ button:hover {
 }
 
 .boxCards {
-    /* border: solid 1px rgb(136, 201, 15); */
     height: 40vh;
     width: 76%;
     display: flex;
@@ -279,7 +180,6 @@ button:hover {
 }
 
 .arrowLeft {
-    /* border: solid 1px black; */
     width: 5%;
     display: flex;
     justify-content: center;
@@ -294,13 +194,12 @@ button:hover {
 }
 
 .arrowRight {
-     /* border: solid 1px black; */
-     width: 5%;
-     display: flex;
-     justify-content: center;
-     position: relative;
-     right: 5%;
-     z-index: 1;
+        width: 5%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        right: 5%;
+        z-index: 1;
 }
 
 .arrowRight:hover {
@@ -309,7 +208,6 @@ button:hover {
 }
 
 .boxCards div{
-    /* border: solid 1px blue; */
     background-color: #F7F7F7;
     width: 19%;
     height: 30vh;
@@ -332,7 +230,6 @@ button:hover {
 }
 
 .boxCards p {
-    /* border: 1px solid #02ff0e; */
     font-family: 'Inter', sans-serif;
     font-size: 1.5rem;
     font-weight: 500;
@@ -341,18 +238,16 @@ button:hover {
 }
 
 .boxCards02 {
-   /* border: solid 1px rgb(136, 201, 15); */
-   height: 38vh;
-   width: 76%;
-   display: flex;
-   justify-content: space-evenly;
-   align-items: center;
-   position: relative;
-   left: 12%;
+    height: 38vh;
+    width: 76%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    left: 12%;
 }
 
 .arrowLeft02 {
-    /* border: solid 1px black; */
     width: 4%;
     display: flex;
     justify-content: center;
@@ -367,12 +262,11 @@ button:hover {
 }
 
 .arrowRight02 {
-     /* border: solid 1px black; */
-     width: 4%;
-     display: flex;
-     justify-content: center;
-     position: relative;
-     right: 4%;
+        width: 4%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        right: 4%;
 }
 
 .arrowRight02:hover {
@@ -381,7 +275,6 @@ button:hover {
 }
 
 .boxCards02 div{
-    /* border: solid 1px blue; */
     width: 19%;
     height: 30vh;
     display: flex;
@@ -421,7 +314,6 @@ button:hover {
 }
 
 .depositions h2 {
-    /* border: solid 1px green; */
     width: 70%;
     font-family: 'Space Grotesk',sans-serif;
     font-size: 2rem;
@@ -433,7 +325,6 @@ button:hover {
 }
 
 .depositions p {
-    /* border: solid 1px green; */
     width: 56%;
     font-family: 'Inter',sans-serif;
     font-size: 0.9rem;
@@ -446,7 +337,6 @@ button:hover {
 }
 
 .set {
-    /* border: solid 1px black; */
     width: 9%;
     height: 10vh;
     display: flex;
@@ -474,7 +364,6 @@ button:hover {
 }
 
 .users {
-    /* border: solid 1px red; */
     width: 71%;
     height: 52vh;
     display: flex;
@@ -485,7 +374,6 @@ button:hover {
 }
 
 .users div {
-    /* border: solid 1px blue; */
     border-radius: 4px;
     width: 30%;
     height: 50vh;
@@ -500,7 +388,6 @@ button:hover {
 }
 
 .users p {
-    /* border: 1px solid blue; */
     font-family: 'Inter', sans-serif;
     font-size: 0.8rem;
     font-weight: 600;
@@ -512,14 +399,12 @@ button:hover {
     left: 2%;
 } 
 .users img {
-    /* border: solid 1px red; */
     width: 31%;
     position: relative;
     left: 35%;
     top: 11%;
 }
 h3 {
-    /* border: 1px solid blue; */
     font-family: 'Space Grotesk', sans-serif;
     font-size: 1.3rem;
     font-weight: 600;
@@ -530,7 +415,6 @@ h3 {
 }
 
 h4 {
-    /* border: 1px solid blue; */
     font-family: 'Inter', sans-serif;
     font-size: 0.8rem;
     font-weight: 500;
@@ -539,9 +423,8 @@ h4 {
     position: relative;
     top: 14%;
 }
-            /* FOOTER */
+
 .contact {
-    /* border: solid 1px ; */
     height: 97vh;
     display: flex;
     justify-content: space-evenly;
@@ -549,7 +432,6 @@ h4 {
 }
 
 .dados {
-    /* border: solid 1px greenyellow; */
     width: 37%;
     height: 66vh;
     display: flex;
@@ -578,7 +460,6 @@ h4 {
 }
 
 .dados form {
-    /* border: solid 1px green; */
     height: 40vh;
     display: flex;
     flex-direction: column;
@@ -629,14 +510,12 @@ h4 {
 }
 
 .link {
-    /* border: solid 1px orange; */
     height: 9vh;
     display: flex;
     justify-content: start;
 }
 
 .link div {
-    /* border: solid 1px green; */
     width: 36%;
     display: flex;
     justify-content: start;
@@ -691,7 +570,6 @@ h4 {
 }
 
 .map {
-    /* border: solid 1px goldenrod; */
     height: 66vh;
     width: 6%;
     position: relative;
@@ -700,20 +578,4 @@ h4 {
 
 .map img {
     width: 368%;
-}
-
-footer  {
-    /* border: solid 1px red; */
-    height: 7vh;
-    background-color: #0E3E29;
-    display: flex;
-    justify-content: center;
-    align-items: center
-}
-
-footer p {
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 1rem;
-    font-weight: 500;
-    color: #FFF;
 }

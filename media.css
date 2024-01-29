@@ -175,9 +175,28 @@
         height: 15vh;
     }
     .info p {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
+        margin-right: 10%;
+        top: 23%;
     }
     .info h2 {
-        font-size: 2.5rem;
+        width: 75%;
+        font-size: 2.6rem;
         font-weight: 600;
+        position: relative;
+        right: 7%;
+        top: 27%;
     }
+    .arrowLeft{
+        display: none;
+    }
+    .boxCards {
+        width: 225%;
+        /* height: 36vh; */
+    }
+    .boxCards div {
+        position: relative;
+        right: 5%;
+        top: 9%;
+    }
+}
