@@ -9,7 +9,7 @@
 ## 📌 Objetivo:
 Aperferiçoar minhas habilidades em Front-End, mais especificamente em HTML e CSS com estrutura e estilos bem desenvolvidos.
 
-## 🔗 [Figma](https://www.figma.com/file/GrxUNNLlIJjs2TUqUmWs0m/Desafios---Codel%C3%A2ndia-(Copy)?type=design&node-id=257153%3A3677&mode=design&t=oXL9xXgrRHZhlTjQ-1)
+## 🔗 [Figma](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codelândia?type=design&node-id=624-2&mode=design&t=s8pOJWD2m7J2g4ta-0)
 
 ## Design feito por:
 - [Iuri Silva](https://www.iuricode.com)
